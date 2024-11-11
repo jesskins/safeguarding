@@ -68,3 +68,31 @@
     font-weight: 900;
     font-style: italic;
   }
+
+
+
+  /* Footer */
+footer {
+  padding-top: 2rem;
+}
+
+#social-networks {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+#social-networks i {
+  font-size: 160%;
+  padding: 5px;
+  color:#3a3a3a;
+}
+
+#social-networks i:hover {
+  font-weight: bold;
+  color: #3a3a3a;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
