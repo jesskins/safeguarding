@@ -96,3 +96,38 @@ footer {
   transition: all 0.3s ease;
   cursor: pointer;
 }
+
+
+/* just to save the colours I'm going to use throughout, may not need to use class any way xxx */
+
+
+.lightgreen {
+  color: #e8f35e;
+}
+
+.darkgreen {
+  color: #376704;
+}
+
+
+/* to make the body and footer nice without a lot of content */ 
+html, body { 
+  height: 100%; 
+  margin: 0; 
+} 
+.container { 
+  display: flex; 
+  flex-direction: column; 
+  min-height: 100vh; 
+} 
+
+/* Main to take up space pls  */
+main { 
+  flex: 1; 
+} 
+
+/* !!! footer content */ 
+
+footer { 
+  text-align: center;
+}
