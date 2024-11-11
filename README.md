@@ -47,6 +47,12 @@ Please follow these simple instructions to correctly use this website.
 ## Design 
 These were my decisions re the design. 
 
+## Colours 
+
+Accessible web testing:
+- light green and white not acceptable 
+
+
 # Testing 
 HTML Validation 
 CSS Validation 
