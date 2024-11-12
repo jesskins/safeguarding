@@ -73,6 +73,17 @@
 
   /* BODY */ 
 
+  /* Override Bootstrap font in the navbar bc it looked too Apple-y  */ 
+  .navbar, .navbar .nav-link, .navbar-brand { 
+    font-family: "Lato", serif; 
+  }
+   
+  .nav-link { 
+    font-size: 16px;
+   } 
+   .navbar-brand { 
+    font-size: 18px;  
+  }
 
 
 .navbar-nav .nav-item .nav-link.active::before { 
@@ -231,7 +242,7 @@ footer {
 @media screen and (max-width: 994px) {
   
 .navbar-nav .nav-item {
-  margin-left: 15px; /* Adjust this value to set the desired margin */
+  margin-left: 18px; /* Adjust this value to set the desired margin */
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -241,3 +252,4 @@ footer {
 }
 
 }
+  
