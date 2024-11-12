@@ -71,6 +71,40 @@
 
 
 
+  /* BODY */ 
+
+  .navbar-nav .nav-item {
+    margin-left: 15px; /* Adjust this value to set the desired margin */
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding: 10px 15px;
+    color: #000;
+    text-align: left;
+}
+
+.navbar-toggler {
+  border: 1px solid #e8f35e; /* Change border color to green */
+}
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="green" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E'); /* Change icon color to green */
+}
+
+
+
+.navbar-nav .nav-item .nav-link.active::before { 
+  content: "\f043"; /* Font Awesome raindrop icon */ 
+  font-family: 'Font Awesome 5 Free'; /* Ensure this matches the Font Awesome version you're using */ 
+  font-weight: 900; /* Ensure this matches the Font Awesome version you're using */ 
+  margin-right: 8px; /* Space between icon and text */ 
+  color: #e8f35e; /* Color of the icon */ }
+
+.nav-item:hover {
+  font-weight: bolder;
+}
+
+
   /* Footer */
 footer {
   padding-top: 2rem;
@@ -209,3 +243,6 @@ footer {
   text-align: center;
   max-height: 50px;
 }
+
+
+/* media queries to follow !!!!!!! */
