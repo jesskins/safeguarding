@@ -98,16 +98,60 @@ footer {
 }
 
 
+/* Hero Section Styling */ 
+.hero-section { 
+  background-color: #6BBE44; 
+  /* Matches your logo's green color */ 
+  color: #FFFFFF; 
+  text-align: center; 
+  padding: 50px 20px; 
+} 
+.hero-content { 
+  max-width: 800px; 
+  margin: auto; 
+} 
+.hero-section h1 { 
+  font-size: 3em; 
+  margin: 0 0 20px; 
+  font-family: 'Montserrat', sans-serif; /* Bold and eye-catching */ 
+} 
+.hero-section p { 
+  font-size: 1.5em; 
+  margin: 0 0 20px; 
+  font-family: 'Open Sans', sans-serif; /* Clean and highly readable */ 
+} 
+.hero-button { 
+  background-color: #00AEEF; /* Light blue for buttons */ 
+  color: #FFFFFF; 
+  padding: 15px 30px; 
+  font-size: 1em; 
+  text-decoration: none; 
+  border-radius: 5px; 
+  font-family: 'Open Sans', sans-serif; 
+  transition: background-color 0.3s ease; 
+} 
+.hero-button:hover { 
+  background-color: #007CA3
+
+}
 /* just to save the colours I'm going to use throughout, may not need to use class any way xxx */
 
 
-.lightgreen {
+.lighter-green {
   color: #e8f35e;
 }
 
-.darkgreen {
+.dark-green {
   color: #376704;
 }
+
+/* icons that will come in handy later - obvs into html xx
+
+.raindrop {
+  display: <i class="fa-solid fa-droplet"></i>;
+}
+
+*/
 
 
 /* to make the body and footer nice without a lot of content */ 
@@ -125,6 +169,33 @@ html, body {
 main { 
   flex: 1; 
 } 
+
+
+/* back to top button */
+
+#top-button {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 10px; /* Place the button at the bottom of the page */
+  right: 10px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #000; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  border-radius: 5px; /* lightly Rounded corners */
+  font-size: 12px;
+  max-width: 100px;
+  line-height: 2cm; /* Vertically center the text */ 
+  margin-bottom: 20px; /* Margin to avoid overlapping with the footer */
+}
+
+#top-button:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
 
 /* !!! footer content */ 
 

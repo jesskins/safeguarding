@@ -74,7 +74,8 @@
  </div>
 
 
-
+<!-- back to top button -->
+ <button onclick="topFunction()" id="top-button" title="Go to top">Jump to Top</button>
 
         <footer>
             <ul id="social-networks">
@@ -95,5 +96,36 @@
 
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- back to top javascript-->
+    <script>
+        // Get the button element by its ID
+        let mybutton = document.getElementById("top-button");
+      
+        // Function to show the button when scrolling down 20px from the top
+        window.onscroll = function() {
+          scrollFunction();
+        };
+      
+        function scrollFunction() {
+          // Check the scroll position
+          // If scrolled down more than 20px, display the button
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            // Otherwise, hide the button
+            mybutton.style.display = "none";
+          }
+        }
+      
+        // Function to scroll back to the top of the document when the button is clicked
+        function topFunction() {
+          document.body.scrollTop = 0; // For Safari browsers
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+        }
+      </script>
+      
+      
+
     </body>
     </html>
