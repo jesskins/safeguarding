@@ -196,6 +196,11 @@ main {
   flex: 1; 
 } 
 
+/* to make the "summary" h2 not there but keep accessibility / whatever that word was, traffic? search ratings? */ 
+.what-is h2 {
+  display: none;
+}
+
 
 /* back to top button */
 
