@@ -196,10 +196,49 @@ main {
   flex: 1; 
 } 
 
-/* to make the "summary" h2 not there but keep accessibility / whatever that word was, traffic? search ratings? */ 
+/* BODY !! BELOW HERO !!to make the "summary" h2 not there but keep accessibility / whatever that word was, traffic? search ratings? */ 
 .what-is h2 {
   display: none;
 }
+
+.learn-more-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.learn-more-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.learn-more-button.adults {
+  background-color: #3a3a3a;
+  color: #e8f35e;
+}
+
+.learn-more-button.children {
+  background-color: #e8f35e;
+  color: #3a3a3a;
+}
+
+.learn-more-button.adults:hover { 
+  font-weight: bold; 
+  box-shadow: 0 0 10px #3f3f3f; 
+  text-decoration: none; /* bc the underline looks SO BAD repeated on children version x */
+}
+
+.learn-more-button.children:hover { 
+  font-weight: bold; 
+  box-shadow: 0 0 10px #e8f35e; 
+  text-decoration: none;
+}
+
 
 
 /* back to top button */
