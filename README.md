@@ -55,7 +55,12 @@ Accessible web testing:
 
 # Testing 
 HTML Validation 
+![Validated Index HTML](assets/images/read-me/index-validation.png)
+![Validated Stories HTML](assets/images/read-me/stories-validation.png)
+
 CSS Validation 
+![Validated CSS](assets/images/read-me/validated-css.png)
+
 Lighthouse Audits 
 Any known bugs 
 
