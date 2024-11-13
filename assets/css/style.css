@@ -200,6 +200,17 @@
   }
 
   /* stories page */ 
+
+  .hero-image-stories {
+    width: 100%; /* Adjust the size as needed */
+    height: auto;
+    margin-bottom: 20px; /* Space between the image and the heading */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
   .testimonials {
     display: flex;
     flex-direction: column;
