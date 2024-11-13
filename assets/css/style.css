@@ -241,6 +241,54 @@ main {
 
 
 
+/* stories page */ 
+.stories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.story {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  max-width: 700px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.story-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+  border: 2px solid #ddd;
+}
+
+.story-text {
+  position: relative;
+  background-color: #f1f1f1;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.story-text h2 {
+  font-size: 1.5em;
+  margin: 0 0 10px;
+}
+
+.story-text p {
+  font-size: 1em;
+  margin: 0;
+  line-height: 1.5;
+}
+
+
 /* back to top button */
 
 #top-button {
