@@ -66,11 +66,25 @@ CSS Validation
 ![Validated CSS](assets/images/read-me/validated-css.png)
 
 Lighthouse Audits 
-Any known bugs 
+
+**Desktop**
+
+![Lighthouse result on Desktop](assets/images/read-me/desktop-lighthouse.png)
+
+**Smaller Devices**
+
+![Lighthouse result on smaller screens](assets/images/read-me/smaller-lighthouse.png)
+
+# Bugs 
+
+**404 not found**
+- Ironically, I haven't been able to link the 404.html to the server, so no personalised 404 message unfortunately. This is not a priority and can be left for a future update. 
 
 # Current Website features 
 
 ## Future features
+- Working 404 Not Found page.
+
 
 # Tablet and Mobile View 
 
@@ -85,7 +99,8 @@ Please make sure to update tests as appropriate.
 # Credits 
 Content references 
 Media references 
-Acknowledgements 
+**Acknowledgements**
+I do not claim any of the images or icons used as my own, w
 
 ## Licenses
 
