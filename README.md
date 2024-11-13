@@ -8,32 +8,15 @@ Check out the live site [here](https://jesskins.github.io/safeguarding/) for mor
 
 ## Brief introduction
 
-[A brief description of this project]. This project was made using the following technologies:
-- VS Code (browser)
-- CSS 
-- HTML
-- Bootstrap 3.2 
-- MIRO
-- Balsamiq 
-- Other software ...?
+This website has a general demographic aim, it was not specified for adults or children to provide a good start point for all. Please navigate through the index (Home) page and view the stories on the "Stories" Page. All other links go to external sites which contain relevant information used due to time constraints.
 
-[Jump to licence and copyright] (insert internal link here)
+Enjoy!! Thank you. 
 
 
-# How to Download Safeguarding
+# How to Use Safeguarding 
 
-Please follow these simple instructions:
+Please follow these simple instructions to correctly use this website. ?? 
 
-
-#How to Use Safeguarding 
-
-Please follow these simple instructions to correctly use this website. 
-
-## contents 
-
-# UX
-
-## User Stories 
 
 
 ### User Stories
@@ -84,11 +67,12 @@ Please follow these simple instructions to correctly use this website.
 
 ## Wireframes 
 
+Nothing that I do can seem to make this work on the document... I really fell out with Balasamiq, and can't seem to get a photo from my phone of the paper copy to work. SORRY!!!!
 
+The following PDF contains the wireframes created for the project.
+ ### Wireframe Document 
+ You can view the wireframes by downloading the PDF here: [Wireframes PDF](docs/wireframe.pdf)
 
-
-## Design 
-These were my decisions re the design. 
 
 ## Colours 
 
@@ -187,11 +171,57 @@ A big thank you to Microsoft Copilot for providing invaluable assistance in deve
 This project uses Bootstrap to help design a responsive and visually appealing interface. Bootstrap's components and grid system made it easier to create a consistent and flexible layout across different devices. 
 - [Bootstrap](https://getbootstrap.com/) - Version: Bootstrap 3.2 (used for this project)
 
-Content references 
+
+### External Resources
+Our project leverages information and resources from the following external links:
+- [NSPCC](https://www.nspcc.org.uk) - National Society for the Prevention of Cruelty to Children, providing essential resources and information on safeguarding.
+- [Gov.uk Safeguarding Policies](https://www.gov.uk/safeguarding) - Government guidelines and policies on safeguarding.
+- [YouTube Educational Video](https://www.youtube.com/watch?time_continue=1&v=Mjo7Kz_4cfk&embeds_referring_euri=https%3A%2F%2F8000-jesskins-safeguarding-m0kciv1cnsb.ws.codeinstitute-ide.net%2F&source_ve_path=Mjg2NjY) - Source of the educational video embedded on our homepage. 
+- [YouTube](https://www.youtube.com) - Platform for educational videos embedded in
+- [YouTube - Real Safeguarding Stories](https://www.youtube.com/@realsafeguardingstories) - Source of real-life safeguarding stories featured on our website.
+
+I do not claim ownership of any external content and give full credit to the respective owners and creators.
+
+
 Media references 
 **Acknowledgements**
-I do not claim any of the images or icons used as my own, w
+I do not claim any of the images or icons used as my own, even the designs which I did make myself I do not claim intellectual property of. 
+
+## Image Credits
+
+I would like to acknowledge the following sources for the images used in our project:
+
+- **Safeguarding Logo**: Used across the website.
+  - Source: Created by Me (Jess) by editing with (canva)[https://www.canva.com/] and using the base icon from Freepik [https://id.freepik.com/v2/log-in?client_id=flaticon&lang=en&_gl=1*ifdr68*test_ga*MTAxMDAyNjYyMy4xNzI4NTU0OTA3*test_ga_523JXC6VL7*MTczMTMyMzA1MS4zLjEuMTczMTMyMzA5MS4yMC4wLjA.*fp_ga*MTAxMDAyNjYyMy4xNzI4NTU0OTA3*fp_ga_1ZY8468CQB*MTczMTMyMzA1Mi4zLjEuMTczMTMyMzExNy42MC4wLjA.]
+
+- **Home and Stories Page Hero Image**: Abstract line drawing and raised hands.
+  - Source: [https://www.canva.com/].
+
+- **Responsive Design Showcase**: Used in the README.md.
+  - Source: [https://ui.dev/].
+
+- **Success Stories Section Images**: Displayed on the stories page.
+  - Source: [https://www.shutterstock.com/image-vector/set-headshot-avatars-people-different-ages-2148038175].
+
+- **Validated Index HTML**: Screenshot for validation section.
+  - Source: Self-generated from the W3C Markup Validation Service.
+
+- **Validated CSS**: Screenshot for validation section.
+  - Source: Self-generated from the W3C CSS Validation Service.
+
+- **Lighthouse Audits**: Screenshots showing Lighthouse results.
+  - Source: Self-generated from Google Chrome's Lighthouse audit tool.
+
+
+**Inspirations**
+
+This project drew inspiration from the following websites, which provided valuable insights and resources on safeguarding:
+
+- [Respect Phoneline](https://respectphoneline.org.uk/contact-us/) - Offering support and advice for those involved in domestic abuse situations.
+- [Goal Us Safeguarding](https://www.goalus.org/safeguarding/) - Providing comprehensive safeguarding guidelines and policies.
+
+
 
 ## Licenses
 
-[MIT](https://choosealicense.com/licenses/mit/)
+I assume provided by Code Institute
