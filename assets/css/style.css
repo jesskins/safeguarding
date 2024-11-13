@@ -65,6 +65,66 @@
     font-weight: bolder;
   }
 
+  /* hero section for index */
+
+  /* Hero Section Styling */
+.hero-section {
+  background-color: #ffffff; /* White background around the photo */
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-content {
+  padding: 20px;
+  background-color: #6BBE44; /* Matches your logo's green color */
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  margin: 20px 0;
+  font-family: 'Montserrat', sans-serif; /* Bold and eye-catching */
+}
+
+.hero-content p {
+  font-size: 1.5em;
+  margin: 20px 0;
+  font-family: 'Lato', sans-serif; /* Clean and highly readable */
+}
+
+
+
+.hero-button {
+  background-color: #00AEEF; /* Light blue for buttons */
+  color: #FFFFFF;
+  padding: 15px 30px;
+  font-size: 1em;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: 'Lato', sans-serif;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.hero-button:hover {
+  background-color: #007CA3;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+
   /* Footer */
   footer {
     padding-top: 2rem;
@@ -113,7 +173,7 @@
   .hero-section p { 
     font-size: 1.5em; 
     margin: 0 0 20px; 
-    font-family: 'Open Sans', sans-serif; /* Clean and highly readable */ 
+    font-family: 'Lato', sans-serif; /* Clean and highly readable */ 
   } 
 
   .hero-button { 
@@ -123,7 +183,7 @@
     font-size: 1em; 
     text-decoration: none; 
     border-radius: 5px; 
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'lato', sans-serif; 
     transition: background-color 0.3s ease; 
   } 
 
@@ -160,6 +220,93 @@
   .what-is h2 {
     display: none;
   }
+
+/* What is Safeguarding Section */
+.what-is-vid {
+  background-color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.what-is-vid h2 {
+  color: #6BBE44;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.what-is {
+  background-color: #f8f9fa;
+  padding: 50px 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.what-is h2 {
+  color: #6BBE44;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.what-is-box {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.what-is-box h5 {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.grid-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.icon {
+  font-size: 2em;
+  color: #6BBE44;
+  margin-bottom: 10px;
+}
+
+.grid-item h3 {
+  font-size: 1.5em;
+  margin: 10px 0;
+  color: #333;
+}
+
+.grid-item p {
+  font-size: 1em;
+  color: #555;
+}
+
+.what-is-box em {
+  font-size: 1em;
+  color: #555;
+  display: block;
+  margin-top: 20px;
+}
+
 
   .learn-more-buttons {
     display: flex;
@@ -277,6 +424,59 @@
     line-height: 1.5;
   }
 
+  /* form styling hencefourth: */
+
+  /* Flexbox container for the form */
+.story-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form group styling */
+.form-group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+/* Submit button styling */
+.submit-button {
+  background-color: #6BBE44;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #5aa239;
+}
+
+
+
   /* back to top button */
 
   #top-button {
@@ -375,3 +575,16 @@ footer {
         text-align: left;
     }
 }
+
+/* Responsive design for stories form  */
+@media (max-width: 600px) {
+  .story-form {
+      padding: 10px;
+  }
+
+  .submit-button {
+      width: 100%;
+      padding: 15px;
+  }
+}
+
