@@ -562,6 +562,14 @@ footer {
         font-size: 2em;
     }
 
+    .hero-content h1 { 
+      font-size: 2em; 
+    }
+
+    .hero-image { 
+      height: auto; /* Maintain aspect ratio */
+      width: 100%; }
+
     .hero-section p {
         font-size: 1em;
     }
