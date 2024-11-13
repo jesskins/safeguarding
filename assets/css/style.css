@@ -242,7 +242,7 @@ main {
 
 
 /* stories page */ 
-.stories {
+.testimonials {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -250,43 +250,64 @@ main {
   background-color: #f8f9fa;
 }
 
-.story {
+.testimonial {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-  max-width: 700px;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  position: relative;
 }
 
-.story-img {
+.profile-img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  margin-right: 20px;
   border: 2px solid #ddd;
+  margin-right: 20px;
 }
 
-.story-text {
-  position: relative;
-  background-color: #f1f1f1;
-  padding: 15px;
+.speech-bubble {
+  background-color: #fff;
+  border: 1px solid #ddd;
   border-radius: 15px;
+  padding: 15px;
+  position: relative;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.story-text h2 {
-  font-size: 1.5em;
-  margin: 0 0 10px;
+.speech-bubble::before {
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 20px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent #fff transparent transparent;
 }
 
-.story-text p {
-  font-size: 1em;
+.speech-bubble::after {
+  content: '';
+  position: absolute;
+  left: -22px;
+  top: 20px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent #ddd transparent transparent;
+  z-index: -1;
+}
+
+.speech-bubble h3 {
   margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.speech-bubble p {
+  margin: 10px 0 0;
+  font-size: 1em;
   line-height: 1.5;
 }
+
 
 
 /* back to top button */
