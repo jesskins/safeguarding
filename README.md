@@ -1,6 +1,8 @@
 # Safeguarding - 1st Independent Project 
 
-[click here for the live website]
+### Visit Our Deployed Website
+Check out the live site [here](https://jesskins.github.io/safeguarding/) for more information on our safeguarding initiatives and real-life success stories.
+
 
 ## Brief introduction
 
