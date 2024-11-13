@@ -3,6 +3,8 @@
 ### Visit Our Deployed Website
 Check out the live site [here](https://jesskins.github.io/safeguarding/) for more information on our safeguarding initiatives and real-life success stories.
 
+![Responsive Design (choice images)](assets/images/read-me/responsive.png)
+
 
 ## Brief introduction
 
